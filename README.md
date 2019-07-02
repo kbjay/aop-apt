@@ -1,13 +1,13 @@
 # aop-apt
 利用apt实现bindView功能（参考butterKnife）
 
-项目介绍：<br>
-  <\t>App：测试module<br>
+项目介绍：<br><br>
+  App：测试module<br>
   apt-annotation:java lib module , 声明bindView注解<br>
   apt-processor:java lib module ，继承AbstractProcessor，根据注解利用javaPoet生成.java文件<br>
   apt-api:android lib ，对外暴露的bind方法：利用反射找到生成的类的bind方法并调用<br>
 <br><br>
-关键点：<br>
+关键点：<br><br>
   注解基础知识<br>
   反射基础知识<br>
   Processor相关api<br>
